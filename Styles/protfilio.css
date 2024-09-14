@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.tex-primary {
+    color: #FD6E0A;
+    ;
+}
+
+.buttonhire {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 10px;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.buttonhire:hover{
+    color: wheat;
+    background-color: black;
+}
