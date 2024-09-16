@@ -6,7 +6,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 50px 150px;
 }
 
 .nav-title {
@@ -26,7 +26,6 @@ nav li {
 
 .tex-primary {
     color: #FD6E0A;
-    ;
 }
 
 .buttonhire {
@@ -46,11 +45,22 @@ nav li {
 }
 
 /* bannar style */
+.header {
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
 
 .banner {
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 150px;
+
+    background-color: white;
+    background-image: url('../images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .banner-subtitle {
@@ -64,6 +74,7 @@ nav li {
 }
 
 .benner-decpri {
+    width: 585px;
     font-size: 18px;
     color: var(--Dark-03, #757575);
     font-weight: 400;
@@ -108,4 +119,30 @@ nav li {
 .profile-pic {
     width: 584px;
     height: 676px;
+}
+
+
+/* About-Me-container */
+
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+
+.sectionTitle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.sectionDispri {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 25px;
 }
