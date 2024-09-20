@@ -121,7 +121,7 @@ nav li {
     height: 676px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -151,14 +151,80 @@ main{
     padding-bottom: 25px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
     padding-top: 35px;
 }
-.info-title{
+
+.info-title {
     padding-bottom: 20px;
+}
+
+
+/* What i do section */
+
+.what-Container {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.What-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.What-decp {
+    width: 909px;
+    color: #757575;
+    padding-left: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* skill-section */
+
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.skill-container {
+    width: 267px;
+    height: 377px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-img {
+    width: 44px;
+    height: 44px;
+    padding: 40px;
+}
+
+.skill-title {
+    color: #181818;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-decp {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 40px;
+    padding-top: 25px;
 }
