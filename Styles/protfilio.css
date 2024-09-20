@@ -283,11 +283,12 @@ hr {
     margin-right: 30px;
 }
 
-.Down-cv{
+.Down-cv {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .btn-Download {
     color: #FFF;
     text-align: center;
@@ -298,4 +299,111 @@ hr {
     width: 200px;
     height: 64px;
     border: 0;
+}
+
+.btn-Download:hover {
+    background-color: black;
+    color: wheat;
+}
+
+/* footer-section */
+
+.footer-section {
+    background: #FFF8F3;
+    width: 1600px;
+    height: 650px;
+    margin-top: 115px;
+}
+
+.footer-left {
+    margin-left: 160px;
+    margin-right: 50px;
+}
+
+.footer-container {
+    display: flex;
+    padding-top: 80px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-decp {
+    width: 562px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.your-name {
+    background-color: black;
+}
+
+.social-link {
+    margin-top: 30px;
+}
+
+.links {
+    margin-right: 24px;
+}
+
+.input-name {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.input-email {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.input-message {
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.input-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: var(--White-Color, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-btn:hover {
+    background-color: black;
+    color: wheat;
 }
